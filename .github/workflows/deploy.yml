@@ -9,7 +9,7 @@ on:
       - master
     paths:
       - ".github/workflows/deploy.yml"
-      - "Buchhaltung/**"
+      - "/"
   pull_request:
 
 jobs:
