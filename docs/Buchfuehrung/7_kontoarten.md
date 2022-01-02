@@ -15,3 +15,7 @@ Die Bilanz stellt die Gegenüberstellung von Vermögenswerten dar. Vermögen kan
 - Bestandskonten **gehen aus der Bilanz hervor**
 - Man unterscheidet zwischen **Aktiv- und Passivkonten**
 - Endbeträge werden in das Schlussbilanzkonto verbucht
+
+![Bestandskonten image](/img/Bestandskonto.png)
+
+## Erfolgskonten
