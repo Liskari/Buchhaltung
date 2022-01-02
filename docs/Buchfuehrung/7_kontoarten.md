@@ -21,7 +21,9 @@ Die Bilanz stellt die Gegenüberstellung von Vermögenswerten dar. Vermögen kan
 ## Privatkonten
 
 - Verhältnis zwischen den Gesellschaftlern und dem Unternehemen wird aufgezeichent
-- Passivkonto
+- Bestandskonto, Passiv
+- Privateinlagen mehren das Kapital des Unternehmens
+- Privatentnahmen mindern das Unternehemenskapital
 
 ## Erfolgskonten
 
