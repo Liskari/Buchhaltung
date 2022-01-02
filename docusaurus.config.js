@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "Liskari", // Usually your GitHub org/user name.
-  projectName: "buchhaltung.github.io", // Usually your repo name.
+  projectName: "Buchhaltung", // Usually your repo name.
 
   presets: [
     [
