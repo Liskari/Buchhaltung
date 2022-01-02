@@ -25,6 +25,8 @@ Die Bilanz stellt die Gegenüberstellung von Vermögenswerten dar. Vermögen kan
 - Privateinlagen mehren das Kapital des Unternehmens
 - Privatentnahmen mindern das Unternehemenskapital
 
+![Privatkonten image](/img/Privatkonto.png)
+
 ## Erfolgskonten
 
 - Erfassen die Aufwendungen und Erträge
@@ -40,5 +42,14 @@ Die Bilanz stellt die Gegenüberstellung von Vermögenswerten dar. Vermögen kan
 - Abschluss über Eigenkapitalkonto
 - Aufwand **>** Ertrag = Verlust
 - Aufwand **<** Ertrag = Gewinn
+
+### Eigenkapitalkonto
+
+In der Buchhaltung stellt das Eigenkapital Schulden dar, die das Unternehmen gegenüber dem Eigentümer hat
+
+- Auch ein **Bestandkonto**, mit Extra-Regeln
+- In der Bilanz im Haben -> Passivkonto
+- Mehrung über Einlagen v. Privatkonto oder Gewinn von GuV-Konto
+- Minderung über Entnahmen v. Privatkonto oder Verlust von GuV-Konto
 
 ![Erfolgskonto image](/img/Erfolgskonto.png)
