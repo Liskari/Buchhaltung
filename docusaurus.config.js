@@ -9,7 +9,7 @@ const config = {
   title: "Buchhaltung",
   tagline: "Dinosaurs are cool",
   url: "https://buchhaltung.github.io",
-  baseUrl: "/",
+  baseUrl: "/Buchhaltung/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
