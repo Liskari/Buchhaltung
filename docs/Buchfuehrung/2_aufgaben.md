@@ -4,15 +4,15 @@ sidebar_position: 2
 
 # Die wichtigesten Aufgaben der Buchführung
 
-- **Ermittlung d. Gesamtergebnisses**: Bestand des Vermögens und der Schulden feststellen
+- **Ermittlung d. Gesamtergebnisses**: Feststellung des Vermögens und der Schulden eines Unternehmens
 
-- **Dokumentation**: Alle Veränderungen der Vermögens- und Schuldenwerte lückenlos erfassen
+- **Dokumentation**: Alle Veränderungen der Vermögens- und Schuldenwerte werden lückenlos erfassen
 
-- **Jahreserfolg ermitteln**: Indem sie alle Aufwendungen und Erträge einzeln zu erfasst
+- **Jahreserfolg ermitteln**: Indem alle Aufwendungen und Erträge einzeln erfasst werden
 
-- **Habe ich meine Ziele erreicht?**: Zahlen für die innerbetriebliche Kontrolle zur Verfügung stellen
+- **Habe ich meine Ziele erreicht?**: Zahlen werden zur innerbetriebliche Kontrolle genutzt
 
-- **Grundlage zur Berechnung**: Der Steuern
+- **Grundlage zur Berechnung**: Beispielswiese der Steuern
 
 - **Information**: Kreditgeber können sich ein Bild über die wirtschaftliche Lage des Unternehmens machen und werden so davor geschützt, Kredite zu vergeben, die nicht zurückgezahlt werden können
 

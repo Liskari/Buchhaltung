@@ -8,6 +8,13 @@ Verschiedene Kontoarten machen die Buchhaltung übersichtlich und kontrollierbar
 
 # Welche Kontoarten gibt es?
 
+## Eröffnungsbilanzkonto
+
+- Hilfskonto, das benötigt wird um die Werte von der Eröffnungsbilanz auf die Bestandskonten zu übertragen
+- Enthält die selben Informationen, wie die Eröffnungsbilanz (aber in spiegelverkehrter Form)
+
+![Eröffnungsbilanzkonto image](/img/Eröffnungsbilanzkonto.png)
+
 ## Bestandskonten
 
 Die Bilanz stellt die Gegenüberstellung von Vermögenswerten dar. Vermögen kann man auch mit Beständen vergleichen.
@@ -53,3 +60,11 @@ In der Buchhaltung stellt das Eigenkapital Schulden dar, die das Unternehmen geg
 - Minderung über Entnahmen v. Privatkonto oder Verlust von GuV-Konto
 
 ![Erfolgskonto image](/img/Erfolgskonto.png)
+
+## Steuerkonten
+
+- Steuerbuchungen müssen hier seperat gebucht werden und an das Finanzamt abgeführt werden
+- Vorsteuer: Unternehmen kauft Waren ein -> Vorsteuerkonto
+- Umsatzsteuer: Unternehmen verkauft Waren -> Umsatzsteuerkonto
+
+![Steuerkonto image](/img/Steuerkonto.png)
