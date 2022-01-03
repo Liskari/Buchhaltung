@@ -18,7 +18,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            Eine Erklärung
+            Eine Erklärung von Lisa Rothe
           </Link>
         </div>
       </div>
