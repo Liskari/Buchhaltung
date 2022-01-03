@@ -65,7 +65,7 @@ Du hebst 500 EUR von deinem Unternehmenskonto ab und legst es bar in die Kasse.
   </div>
 </details>
 
-#### Aufgabe 3
+#### Aufgabe 3 (:exclamation: Achtung: Hier sind 3 Konten betroffen)
 
 Du kaufst für dein Büro ein neuen Schreibtischstuhl auf Rechnung (Kosten: 400 EUR netto)
 
