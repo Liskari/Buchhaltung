@@ -18,7 +18,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            Buchführung Dokumentation
+            Eine Erklärung
           </Link>
         </div>
       </div>

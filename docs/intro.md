@@ -39,7 +39,3 @@ Jahresfehlbetrag **(_coming soon_)**
 - Kostenrechnungssysteme **(_coming soon_)**
 
 - Beispielrechnung **(_coming soon_)**
-
-### 3. Übungen
-
-- Buchungssätze üben (einfache)

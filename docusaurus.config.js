@@ -7,7 +7,6 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Buchhaltung",
-  tagline: "Dinosaurs are cool",
   url: "https://buchhaltung.github.io",
   baseUrl: "/Buchhaltung/",
   onBrokenLinks: "throw",
@@ -24,13 +23,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/facebook/docusaurus/edit/main/website/",
+          editUrl: "https://github.com/Liskari/Buchhaltung",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/main/website/blog/",
+          editUrl: "https://github.com/Liskari/Buchhaltung",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -43,7 +41,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "Buchhaltung",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
@@ -53,12 +51,12 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "Erklärung",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/blog", label: "Übungen", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
+            href: "https://github.com/Liskari",
+            label: "Mein GitHub",
             position: "right",
           },
         ],
@@ -67,46 +65,29 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Doku",
             items: [
               {
-                label: "Tutorial",
+                label: "Buchhaltung Erklärung",
                 to: "/docs/intro",
               },
             ],
           },
           {
-            title: "Community",
+            title: "Mehr",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
+                label: "Übungen",
                 to: "/blog",
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/Liskari",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Buchhaltung by Lisa Rothe, Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
