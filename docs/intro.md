@@ -8,37 +8,37 @@ Themen der **Buchführung**.
 
 ### 1. Buchführung
 
-- Was ist das?
+#### 1.1 Was ist das?
 
-- Die wichtigsten Aufgaben der Buchführung
+#### 1.2 Die wichtigsten Aufgaben der Buchführung
 
-- Die Inventur
+#### 1.3 Die Inventur
 
-- Das Inventar
+#### 1.4 Das Inventar
 
-- Die Bilanz
+#### 1.5 Die Bilanz
 
-- Buchungssätze
+#### 1.6 Buchungssätze
 
-- Kontoarten
+#### 1.7 Kontoarten
 
-- Das GuV-Konto**coming soon**
+Das GuV-Konto **(_coming soon_)**
 
-- Jahresfehlbetrag **coming soon**
+Jahresfehlbetrag **(_coming soon_)**
 
 ### 2. Was ist Kostenartenrechnen?
 
-- Was ist das? **coming soon**
+- Was ist das? **(_coming soon_)**
 
 - Die wichtigsten Aufgaben und Ziele der Kostenartenrechnung
 
-- KLR - Schema **coming soon**
+- KLR - Schema **(_coming soon_)**
 
-- Kostenartenrechnung, Kostenstellenrechnung, Kostenträgerrechnung **coming soon**
+- Kostenartenrechnung, Kostenstellenrechnung, Kostenträgerrechnung **(_coming soon_)**
 
-- Kostenrechnungssysteme **coming soon**
+- Kostenrechnungssysteme **(_coming soon_)**
 
-- Beispielrechnung **coming soon**
+- Beispielrechnung **(_coming soon_)**
 
 ### 3. Übungen
 
