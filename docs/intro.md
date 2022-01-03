@@ -18,6 +18,28 @@ Themen der **Buchführung**.
 
 - Die Bilanz
 
+- Buchungssätze
+
+- Kontoarten
+
+- Das GuV-Konto**coming soon**
+
+- Jahresfehlbetrag **coming soon**
+
 ### 2. Was ist Kostenartenrechnen?
 
-- Die wichtigsten Aufgaben der Kostenartenrechnung
+- Was ist das? **coming soon**
+
+- Die wichtigsten Aufgaben und Ziele der Kostenartenrechnung
+
+- KLR - Schema **coming soon**
+
+- Kostenartenrechnung, Kostenstellenrechnung, Kostenträgerrechnung **coming soon**
+
+- Kostenrechnungssysteme **coming soon**
+
+- Beispielrechnung **coming soon**
+
+### 3. Übungen
+
+- Buchungssätze üben (einfache)
