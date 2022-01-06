@@ -5,19 +5,18 @@ sidebar_position: 6
 # Was ist ein Buchnungssatz?
 
 - Werkzeug der doppelten Buchführung :wrench:
-- Geben an auf welche Konten gebucht werden
+- Sie geben an, auf welche Konten gebucht werden
 - Grundlegende Form eines Buchnungssatzes lautet: **Soll an Haben**
 - Bei einem Buchungssatz werden **mindestens zwei** Konten angesprochen
 - Buchnung erfolgt auf **T-Konten**
 
-Die grundsätzliche Logik von Buchungssätzen ist immer gleich.
-
 **Debitorenbuchung**: Buchungen von Ausgangsrechnungen (Forderung von Kunden)
 **Kreditorenbuchung**: Buchungen von Eingangsrechungen (Verbindlichkeiten von Lieferanten)
+AS
 
 # Buchungssätze bilden
 
-Aufbau immer gleich: **SOLL AN HABEN**
+Aufbau immer gleich: **SOLL AN HABEN** <br/>
 Das heisst: Bei einem Konto findet die Buchung auf der Soll-Seite statt, beim Gegenkonto auf der Haben-Seite.
 
 ## Auf welcher Seite des Kontos wird gebucht?
@@ -27,7 +26,7 @@ Ob ein Geschäftsvorfall im Soll oder im Haben eines Kontos gebucht wird ist von
 1. Um welche Kontoart geht es? (Exkurs s. Kontoarten)
 2. Handelt es sich um einen Zugang oder ein Abgang?
 
-Zu- und Abgänge werden auf den 2 Kontoarten wie folgt gebucht:
+**Zu- und Abgänge** werden auf den 2 Kontoarten wie folgt gebucht:
 
 **Aktivkonten**
 
@@ -47,7 +46,7 @@ Zu- und Abgänge werden auf den 2 Kontoarten wie folgt gebucht:
 | ------ | ------ |
 | Abgang | Zugang |
 
-Wenn man dieses Schema verinnerlicht hat, ost das Bilden von Buchungssätzen nicht schwer. Dafür kann die folgende Hilfestellung unterstützen:
+Wenn man dieses Schema verinnerlicht hat, ist das Bilden von Buchungssätzen nicht mehr schwer. Dafür kann die folgende Hilfestellung unterstützen:
 
 **Buchungssätze bilden in 5 Schritten**
 

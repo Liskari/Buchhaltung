@@ -4,93 +4,242 @@ sidebar_position: 1
 
 # Buchhaltung - Level 1
 
+### Buchungssätze einem Geschäftsfall zuordnen
+
+Hier wir dir ein Buchungssatz vorgegeben und du wählst den passenden Geschäftsfall aus.
+
 #### Aufgabe 1
 
-Aus der Betriebskasse werden 100 EUR entnommen und in Bar auf ein Bankkonto d. Unternehmens eingezahlt.
+Buchungssatz: **Kasse an Bank**
 
-1. Betroffene Konten? <input id="konto_1" name="konten"></input> <input id="konto_2" name="konten"></input><br/>
-2. Kontoart? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="kontoart_1" name="kontoart"></input> <input id="kontoart_2" name="kontoart"></input><br/>
-3. Zugang o. Abgang? <input id="bewegung_1" name="bewegung"></input> <input id="bewegung_2" name="bewegung"></input><br/>
-4. Soll o. Haben?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="sollhaben_1" name="sollhaben"></input> <input id="sollhaben_2" name="sollhaben"></input><br/><br/>
-5. Buchungssatz:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input id="konto_1" name="buchungssatz"></input> an <input id="konto_2" name="buchungssatz"></input><input id="konto_2" name="euro"></input>Euro<br/>
+Wähle einen Geschäftsvorfall:
+
+<div>
+  <input type="radio" id="wrong" name="drone" value="wrong"
+         checked></input>
+  <label for="huey">Barabhebung von deinem Bankonto</label>
+</div>
+<div>
+  <input type="radio" id="right" name="drone" value="right"
+         checked></input>
+  <label for="right">Bareinzahlung auf deinem Bankkonto</label>
+</div>
 
 <details>
   <summary>Lösung:</summary>
   <div>
-    <div>Bank an Kasse 100 EUR.</div>
+    <div>Barabhebung von deinem Bankkonto</div>
       <br/>
     <details>
       <summary>
         Warum?
       </summary>
       <div>
-        1. Betroffene Konten: Kasse und Bank<br/>
-        2. Kontoart? Kasse = Aktiv, Bank = Aktiv<br/>
-        3. Zugang o. Abgang? Kasse = Abgang, Bank = Zugang<br/>
-        4. Soll o. Haben? Kasse = Haben, Bank = Soll<br/>
-        Beides sind Aktivkonten. Bei Aktivkonten stehen Zugänge im Soll und Abgänge im Haben.
+        1. Betroffene Konten: Kasse und Bank<br/><br/>
+        2. Soll o. Haben? Kasse = Soll, Bank = Haben 
+        3. Kontoart? Kasse = Aktiv, Bank = Aktiv<br/>
+        4. Zugang o. Abgang? Kasse = Zugang, Bank = Abgang<br/>
+        Kasse wird mehr (Barabhebung), Bank wird weniger (Abheben vom Bankkonto)
       </div>
     </details>
-
   </div>
 </details>
 
 #### Aufgabe 2
 
-Du hebst 500 EUR von deinem Unternehmenskonto ab und legst es bar in die Kasse.
+Buchungssatz: **Darlehensschulden an Bank**
 
-1. Betroffene Konten? <input id="konto_1" name="konten"></input> <input id="konto_2" name="konten"></input><br/>
-2. Kontoart? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="kontoart_1" name="kontoart"></input> <input id="kontoart_2" name="kontoart"></input><br/>
-3. Zugang o. Abgang? <input id="bewegung_1" name="bewegung"></input> <input id="bewegung_2" name="bewegung"></input><br/>
-4. Soll o. Haben?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="sollhaben_1" name="sollhaben"></input> <input id="sollhaben_2" name="sollhaben"></input><br/><br/>
-5. Buchungssatz:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input id="konto_1" name="buchungssatz"></input> an <input id="konto_2" name="buchungssatz"></input><input id="konto_2" name="euro"></input>Euro<br/>
+Wähle einen Geschäftsvorfall:
+
+<div>
+  <input type="radio" id="wrong" name="drone" value="wrong"
+         checked></input>
+  <label for="huey">Wir bekommen ein Darlehen ausgezahlt</label>
+</div>
+<div>
+  <input type="radio" id="right" name="drone" value="right"
+         checked></input>
+  <label for="right">Wir tilgen ein Darlehen durch eine Banküberweisung</label>
+</div>
 
 <details>
   <summary>Lösung:</summary>
   <div>
-    <div>Kasse an Bank 500 EUR.</div>
-    <br/>
+    <div>Wir tilgen ein Darlehen durch eine Banküberweisung</div>
+      <br/>
     <details>
       <summary>
         Warum?
       </summary>
       <div>
-        1. Betroffene Konten: Bank und Kasse<br/>
-        2. Kontoart? Kasse = Aktiv, Bank = Aktiv<br/>
-        3. Zugang o. Abgang? Bank = Abgang, Kasse = Zugang<br/>
-        4. Soll o. Haben? Bank = Haben, Kasse = Soll<br/>
-        Beides sind Aktivkonten. Bei Aktivkonten stehen Zugänge im Soll und Abgänge im Haben.
-       </div>
+        1. Betroffene Konten: Darlehnsschulden und Bank<br/>
+        2. Soll o. Haben? Darlehnsschulden = Soll, Bank = Haben<br/>
+        3. Kontoart? Darlehnsschulden = Passiv, Bank = Aktiv<br/>
+        4. Zugang o. Abgang? Darlehnsschulden = Abgang, Bank = Abgang<br/>
+        Darlehen wird weniger (Tilgung), Bank wird weniger (Überweisung)
+      </div>
     </details>
   </div>
 </details>
 
-#### Aufgabe 3 (:exclamation: Achtung: Hier sind 3 Konten betroffen)
+#### Aufgabe 3
 
-Du kaufst für dein Büro ein neuen Schreibtischstuhl auf Rechnung (Kosten: 400 EUR netto)
+Buchungssatz: **Umsatzsteuer an Bank**
 
-1. Betroffene Konten? <input id="konto_1" name="konten"></input> <input id="konto_2" name="konten"></input> <input id="konto_3" name="konten"></input><br/>
-2. Kontoart? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="kontoart_1" name="kontoart"></input> <input id="kontoart_2" name="kontoart"></input> <input id="kontoart_3" name="kontoart"></input><br/>
-3. Zugang o. Abgang? <input id="bewegung_1" name="bewegung"></input> <input id="bewegung_2" name="bewegung"></input> <input id="bewegung_3" name="bewegung"></input><br/>
-4. Soll o. Haben?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="sollhaben_1" name="sollhaben"></input> <input id="sollhaben_2" name="sollhaben"></input> <input id="sollhaben_2" name="sollhaben"></input><br/><br/>
-5. Buchungssatz:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input id="konto_1" name="buchungssatz"></input> und <input id="konto_2" name="buchungssatz"></input>an <input id="konto_3" name="buchungssatz"></input><input id="euro" name="euro"></input>Euro<br/>
+Wähle einen Geschäftsvorfall:
+
+<div>
+  <input type="radio" id="wrong" name="drone" value="wrong"
+         checked></input>
+  <label for="huey">Banküberweisung der Zahllast an das Finanzamt</label>
+</div>
+<div>
+  <input type="radio" id="right" name="drone" value="right"
+         checked></input>
+  <label for="right">Finanzamt zahlt und zuviel gezahlte Umsatzsteuer</label>
+</div>
 
 <details>
   <summary>Lösung:</summary>
   <div>
-    <div>BuGA und Vorsteuer an Verbindlichkeiten aus Liefeung und Leistungen (Verb. L+L) 476 EUR.</div>
-    <br/>
+    <div>Banküberweisung der Zahllast an das Finanzamt</div>
+      <br/>
     <details>
       <summary>
         Warum?
       </summary>
       <div>
-        1. Betroffene Konten: Bank und Kasse<br/>
-        2. Kontoart? Kasse = Aktiv, Bank = Aktiv<br/>
-        3. Zugang o. Abgang? Bank = Abgang, Kasse = Zugang<br/>
-        4. Soll o. Haben? Bank = Haben, Kasse = Soll<br/>
-        Beides sind Aktivkonten. Bei Aktivkonten stehen Zugänge im Soll und Abgänge im Haben.
-       </div>
+        1. Betroffene Konten: Umsatzsteuer und Bank<br/>
+        2. Soll o. Haben? Umsatzsteuer = Soll, Bank = Haben<br/>
+        3. Kontoart? Umsatzsteuer = Passiv, Bank = Aktiv<br/>
+        4. Zugang o. Abgang? Umsatzsteuer = Abgang, Bank = Abgang<br/>
+        Zahllast an das FA wird beglichen, Bank wird weniger (Überweisung)
+      </div>
+    </details>
+  </div>
+</details>
+
+#### Aufgabe 4
+
+Buchungssatz: **Aufwendungen für Büromaterial an Büromaterial**
+
+Wähle einen Geschäftsvorfall:
+
+<div>
+  <input type="radio" id="wrong" name="drone" value="wrong"
+         checked></input>
+  <label for="huey">Banküberweisung der Zahllast an das Finanzamt</label>
+</div>
+<div>
+  <input type="radio" id="right" name="drone" value="right"
+         checked></input>
+  <label for="right">Finanzamt zahlt und zuviel gezahlte Umsatzsteuer</label>
+</div>
+
+<details>
+  <summary>Lösung:</summary>
+  <div>
+    <div>Banküberweisung der Zahllast an das Finanzamt</div>
+      <br/>
+    <details>
+      <summary>
+        Warum?
+      </summary>
+      <div>
+        1. Betroffene Konten: Umsatzsteuer und Bank<br/>
+        2. Soll o. Haben? Umsatzsteuer = Soll, Bank = Haben<br/>
+        3. Kontoart? Umsatzsteuer = Passiv, Bank = Aktiv<br/>
+        4. Zugang o. Abgang? Umsatzsteuer = Abgang, Bank = Abgang<br/>
+        Zahllast an das FA wird beglichen, Bank wird weniger (Überweisung)
+      </div>
+    </details>
+  </div>
+</details>
+
+:boom: Jetzt werden **drei** Konten betroffen.
+
+#### Aufgabe 5
+
+Buchungssatz: **Verb. aus Lieferungen und Leistungen an Kasse und an Bank**
+
+Wähle einen Geschäftsvorfall:
+
+<div>
+  <input type="radio" id="wrong" name="drone" value="wrong"
+         checked></input>
+  <label for="huey">Wir nehmen einen Werbedienstleisteung in anspruch und bezahlen teils bar und teils durch Banküberweisung</label>
+</div>
+<div>
+  <input type="radio" id="right" name="drone" value="right"
+         checked></input>
+  <label for="right">Kunde zahlt unsere Ausgangsrechnung teils bar und teils durch Banküberweisung</label>
+</div>
+<div>
+  <input type="radio" id="right" name="drone" value="right"
+         checked></input>
+  <label for="right">Wir begleichen Eingangsrechnung für Werbung in bar und den Rest durch Banküberweisung </label>
+</div>
+
+<details>
+  <summary>Lösung:</summary>
+  <div>
+    <div>Wir begleichen Eingangsrechnung für Werbung in bar und den Rest durch Banküberweisung</div>
+      <br/>
+    <details>
+      <summary>
+        Warum?
+      </summary>
+      <div>
+        2. Soll o. Haben? Verb. L+L = Soll, Kasse = Haben, Bank = Haben<br/>
+        3. Kontoart? Verb. L+L = Passiv, Kasse = Aktiv, Bank = Aktiv<br/>
+        4. Zugang o. Abgang? Verb. L+L = Abgang, Kasse = Abgang, Bank = Abgang<br/>
+        Verb. L+L werden beglichen, Kasse wird weniger, Bank wird weniger
+      </div>
+    </details>
+  </div>
+</details>
+
+:boom:**Was ist ein Zielkauf?**<br?>
+Kauf, bei dem die Rechnung erst nach Lieferung zu einem bestimmten Zeitpunkt zur Zahlung fällig wird
+
+#### Aufgabe 6
+
+Buchungssatz: **Büro- und Geschäftsausstattungen (BuGA) und Vorsteuer an Verb. aus Lieferungen und Leistungen**
+
+Wähle einen Geschäftsvorfall:
+
+<div>
+  <input type="radio" id="wrong" name="drone" value="wrong"
+         checked></input>
+  <label for="huey">Verkauf von BuGA auf Rechnung</label>
+</div>
+<div>
+  <input type="radio" id="right" name="drone" value="right"
+         checked></input>
+  <label for="right">Zielkauf von BuGA, Rechnung Netto 5.000 EUR</label>
+</div>
+<div>
+  <input type="radio" id="right" name="drone" value="right"
+         checked></input>
+  <label for="right">Falsch gelieferte BuGA geht an den Lieferer zurück, Gutschrift des Lieferes</label>
+</div>
+
+<details>
+  <summary>Lösung:</summary>
+  <div>
+    <div>Zielkauf von BuGA, Rechnung Netto 5.000 EUR</div>
+      <br/>
+    <details>
+      <summary>
+        Warum?
+      </summary>
+      <div>
+        1. Betroffene Konten: BuGA, Vorsteuer und Verb. L+L<br/>
+        2. Soll o. Haben? BuGA = Soll, Vorsteuer = Soll, Verb. L+L = Haben<br/>
+        3. Kontoart? BuGA = Aktiv, Vorsteuer = Aktiv, Verb. L+L = Passiv<br/>
+        4. Zugang o. Abgang? BuGA = Zugang, Vorsteuer = Zugang, Verb. L+L = Zugang<br/>
+        BuGA wird eingekauft, Vorsteuer bezahlt, Rechnung = Verbindl. L+L
+      </div>
     </details>
   </div>
 </details>
