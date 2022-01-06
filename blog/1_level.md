@@ -165,7 +165,7 @@ Wähle einen Geschäftsvorfall:
   </div>
 </details>
 
-:boom:**Was ist ein Zielkauf?**<br?>
+:boom:**Was ist ein Zielkauf?**<br/>
 Kauf, bei dem die Rechnung erst nach Lieferung zu einem bestimmten Zeitpunkt zur Zahlung fällig wird
 
 #### Aufgabe 5
