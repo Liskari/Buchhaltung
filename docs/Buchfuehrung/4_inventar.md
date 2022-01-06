@@ -51,7 +51,7 @@ sidebar_position: 4
 
 :::tip Anlagevermögen
 
-sind **langfristige** Vermögenswerte und dienen zur **Aufrechterhaltung** der Betriebsbereitschaft
+sind **langfristige** Vermögenswerte und dienen zur **Aufrechterhaltung** der Betriebsbereitschaft. Sie sollen also nicht veräußert werden.
 
 #### Beispielsweise
 
@@ -60,9 +60,9 @@ sind **langfristige** Vermögenswerte und dienen zur **Aufrechterhaltung** der B
 
 :::tip Umlaufvermögen
 
-sind alle **kurzfristigen** Vermögenswerte im Unternehmen
+sind alle **kurzfristigen** Vermögenswerte im Unternehmen und sind somit nicht dauerhaft im Unternehmen. Sie sind zur Verarbeitung, zum Verbrauch, zur Rückzahlung oder zur Veräußerung ßgedacht.
 
 #### Beispielsweise
 
-:point_right: Warenbestände, Forderungen aus Lieferungen und Leistungen, Bankguthaben, Kassenbestände
+:point_right: Warenbestände, Forderungen aus Lieferungen und Leistungen, Bankguthaben, Kassenbestände, Material
 :::
