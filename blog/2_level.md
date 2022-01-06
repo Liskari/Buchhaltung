@@ -4,6 +4,15 @@ sidebar_position: 2
 
 # Buchhaltung - Level 2
 
+Hier werden Geschäftsvorfälle vorgegeben und du kannst einen Buchungssatz daraus bilden.
+
+:pushpin:**Wichtige Fragestellungen:**
+
+1. Betroffene Konten?<br/>
+2. Kontoart - Aktiv oder Passiv?<br/>
+3. Zugang o. Abgang?<br/>
+4. Soll o. Haben?<br/>
+
 #### Aufgabe 1
 
 Aus der Betriebskasse werden 100 EUR entnommen und in Bar auf ein Bankkonto d. Unternehmens eingezahlt.

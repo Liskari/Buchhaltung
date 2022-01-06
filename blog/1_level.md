@@ -8,6 +8,12 @@ sidebar_position: 1
 
 Hier wir dir ein Buchungssatz vorgegeben und du wählst den passenden Geschäftsfall aus.
 
+:pushpin:**Wichtige Fragestellungen:**
+
+1. Soll oder Haben?<br/>
+2. Welche Kontoart - Aktiv oder Passiv?<br/>
+3. Zugang :chart_with_upwards_trend: oder Abgang :chart_with_downwards_trend:?<br/>
+
 #### Aufgabe 1
 
 Buchungssatz: **Kasse an Bank**
@@ -35,10 +41,9 @@ Wähle einen Geschäftsvorfall:
         Warum?
       </summary>
       <div>
-        1. Betroffene Konten: Kasse und Bank<br/><br/>
-        2. Soll o. Haben? Kasse = Soll, Bank = Haben 
-        3. Kontoart? Kasse = Aktiv, Bank = Aktiv<br/>
-        4. Zugang o. Abgang? Kasse = Zugang, Bank = Abgang<br/>
+        1. Soll o. Haben? Kasse = Soll, Bank = Haben<br/>
+        2. Kontoart? Kasse = Aktiv, Bank = Aktiv<br/>
+        3. Zugang o. Abgang? Kasse = Zugang, Bank = Abgang<br/>
         Kasse wird mehr (Barabhebung), Bank wird weniger (Abheben vom Bankkonto)
       </div>
     </details>
@@ -72,11 +77,10 @@ Wähle einen Geschäftsvorfall:
         Warum?
       </summary>
       <div>
-        1. Betroffene Konten: Darlehnsschulden und Bank<br/>
-        2. Soll o. Haben? Darlehnsschulden = Soll, Bank = Haben<br/>
-        3. Kontoart? Darlehnsschulden = Passiv, Bank = Aktiv<br/>
-        4. Zugang o. Abgang? Darlehnsschulden = Abgang, Bank = Abgang<br/>
-        Darlehen wird weniger (Tilgung), Bank wird weniger (Überweisung)
+        1. Soll o. Haben? Darlehnsschulden = Soll, Bank = Haben<br/>
+        2. Kontoart? Darlehnsschulden = Passiv, Bank = Aktiv<br/>
+        3. Zugang o. Abgang? Darlehnsschulden = Abgang, Bank = Abgang<br/>
+        Darlehen wird weniger (Tilgung), Bank wird (Überweisung)
       </div>
     </details>
   </div>
@@ -109,48 +113,10 @@ Wähle einen Geschäftsvorfall:
         Warum?
       </summary>
       <div>
-        1. Betroffene Konten: Umsatzsteuer und Bank<br/>
-        2. Soll o. Haben? Umsatzsteuer = Soll, Bank = Haben<br/>
-        3. Kontoart? Umsatzsteuer = Passiv, Bank = Aktiv<br/>
-        4. Zugang o. Abgang? Umsatzsteuer = Abgang, Bank = Abgang<br/>
-        Zahllast an das FA wird beglichen, Bank wird weniger (Überweisung)
-      </div>
-    </details>
-  </div>
-</details>
-
-#### Aufgabe 4
-
-Buchungssatz: **Aufwendungen für Büromaterial an Büromaterial**
-
-Wähle einen Geschäftsvorfall:
-
-<div>
-  <input type="radio" id="wrong" name="drone" value="wrong"
-         checked></input>
-  <label for="huey">Banküberweisung der Zahllast an das Finanzamt</label>
-</div>
-<div>
-  <input type="radio" id="right" name="drone" value="right"
-         checked></input>
-  <label for="right">Finanzamt zahlt und zuviel gezahlte Umsatzsteuer</label>
-</div>
-
-<details>
-  <summary>Lösung:</summary>
-  <div>
-    <div>Banküberweisung der Zahllast an das Finanzamt</div>
-      <br/>
-    <details>
-      <summary>
-        Warum?
-      </summary>
-      <div>
-        1. Betroffene Konten: Umsatzsteuer und Bank<br/>
-        2. Soll o. Haben? Umsatzsteuer = Soll, Bank = Haben<br/>
-        3. Kontoart? Umsatzsteuer = Passiv, Bank = Aktiv<br/>
-        4. Zugang o. Abgang? Umsatzsteuer = Abgang, Bank = Abgang<br/>
-        Zahllast an das FA wird beglichen, Bank wird weniger (Überweisung)
+        1. Soll o. Haben? Umsatzsteuer = Soll, Bank = Haben<br/>
+        2. Kontoart? Umsatzsteuer = Passiv, Bank = Aktiv<br/>
+        3. Zugang o. Abgang? Umsatzsteuer = Abgang, Bank = Abgang<br/>
+        Zahllast beglichen, Bank (Überweisung)
       </div>
     </details>
   </div>
@@ -158,7 +124,7 @@ Wähle einen Geschäftsvorfall:
 
 :boom: Jetzt werden **drei** Konten betroffen.
 
-#### Aufgabe 5
+#### Aufgabe 4
 
 Buchungssatz: **Verb. aus Lieferungen und Leistungen an Kasse und an Bank**
 
@@ -190,9 +156,9 @@ Wähle einen Geschäftsvorfall:
         Warum?
       </summary>
       <div>
-        2. Soll o. Haben? Verb. L+L = Soll, Kasse = Haben, Bank = Haben<br/>
-        3. Kontoart? Verb. L+L = Passiv, Kasse = Aktiv, Bank = Aktiv<br/>
-        4. Zugang o. Abgang? Verb. L+L = Abgang, Kasse = Abgang, Bank = Abgang<br/>
+        1. Soll o. Haben? Verb. L+L = Soll, Kasse = Haben, Bank = Haben<br/>
+        2. Kontoart? Verb. L+L = Passiv, Kasse = Aktiv, Bank = Aktiv<br/>
+        3. Zugang o. Abgang? Verb. L+L = Abgang, Kasse = Abgang, Bank = Abgang<br/>
         Verb. L+L werden beglichen, Kasse wird weniger, Bank wird weniger
       </div>
     </details>
@@ -202,7 +168,7 @@ Wähle einen Geschäftsvorfall:
 :boom:**Was ist ein Zielkauf?**<br?>
 Kauf, bei dem die Rechnung erst nach Lieferung zu einem bestimmten Zeitpunkt zur Zahlung fällig wird
 
-#### Aufgabe 6
+#### Aufgabe 5
 
 Buchungssatz: **Büro- und Geschäftsausstattungen (BuGA) und Vorsteuer an Verb. aus Lieferungen und Leistungen**
 
@@ -234,10 +200,9 @@ Wähle einen Geschäftsvorfall:
         Warum?
       </summary>
       <div>
-        1. Betroffene Konten: BuGA, Vorsteuer und Verb. L+L<br/>
-        2. Soll o. Haben? BuGA = Soll, Vorsteuer = Soll, Verb. L+L = Haben<br/>
-        3. Kontoart? BuGA = Aktiv, Vorsteuer = Aktiv, Verb. L+L = Passiv<br/>
-        4. Zugang o. Abgang? BuGA = Zugang, Vorsteuer = Zugang, Verb. L+L = Zugang<br/>
+        1. Soll o. Haben? BuGA = Soll, Vorsteuer = Soll, Verb. L+L = Haben<br/>
+        2. Kontoart? BuGA = Aktiv, Vorsteuer = Aktiv, Verb. L+L = Passiv<br/>
+        3. Zugang o. Abgang? BuGA = Zugang, Vorsteuer = Zugang, Verb. L+L = Zugang<br/>
         BuGA wird eingekauft, Vorsteuer bezahlt, Rechnung = Verbindl. L+L
       </div>
     </details>
