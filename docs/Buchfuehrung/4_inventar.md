@@ -4,6 +4,8 @@ sidebar_position: 4
 
 # Das Inventar
 
+### Einleitung
+
 - ist ein bis in alle Einzelheiten gehendes Verzeichnis aller Vermögensteile und Schulden **nach Art, Menge und Wert** zu einem bestimmten Zeitpunkt
 
 - Schulden werden nach ihrer Fälligkeit geordnet
