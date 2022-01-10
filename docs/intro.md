@@ -56,7 +56,7 @@ sidebar_position: 1
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weitere **(_coming soon_)**
 
-### 1.5 Buchungssätze
+### 1.7 Buchungssätze
 
 &nbsp;&nbsp;&nbsp;&nbsp;Was ist ein Buchungssatz?
 
@@ -70,7 +70,7 @@ sidebar_position: 1
 
 &nbsp;&nbsp;&nbsp;&nbsp;Buchungssätze bilden in 5 Schritten
 
-### 1.6 Kontoarten
+### 1.8 Kontoarten
 
 &nbsp;&nbsp;&nbsp;&nbsp;Einleitung
 
@@ -90,7 +90,7 @@ sidebar_position: 1
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Steuerkonten
 
-### 1.7 Das GuV-Konto **(_coming soon_)**
+### 1.9 Das GuV-Konto **(_coming soon_)**
 
 ### 1.8 Jahresabschluss **(_coming soon_)**
 
